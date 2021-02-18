@@ -1,0 +1,163 @@
+.remd {
+    width: 100%;
+    padding-top: 20px;
+
+    .remd_tl {
+        position: relative;
+        padding-left: 9px;
+        margin-bottom: 14px;
+        font-size: 17px;
+        height: 20px;
+        line-height: 20px;
+
+        &:after {
+            content: " ";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -9px;
+            width: 2px;
+            height: 16px;
+            background-color: #d33a31;
+        }
+    }
+
+    .remd_song {
+        position: relative;
+        padding-bottom: 24px;
+
+        .remd_ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .remd_li {
+                width: 2.36rem;
+                height: 30%;
+                // padding-right: 2px;
+                display: block;
+                margin-bottom: 16px;
+                float: left;
+                padding-left: 1px;
+                padding-right: 1px;
+                box-sizing: border-box;
+
+                .img_song {
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+
+                    .icon-erji1 {
+                        position: absolute;
+                        right: 5px;
+                        top: 2px;
+                        z-index: 3;
+                        padding-left: 13px;
+                        color: #fff;
+                        font-size: 12px;
+                        background-position: 0;
+                        background-repeat: no-repeat;
+                        background-size: 11px 10px;
+                        text-shadow: 1px 0 0 rgb(0 0 0 / 15%);
+                    }
+                }
+            }
+        }
+
+        .remd_text {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            padding: 6px 2px 0 6px;
+            min-height: 30px;
+            line-height: 1.2;
+            font-size: 13px;
+        }
+    }
+
+    // 最新
+    .song {
+        .song_list {
+            width: 100%;
+            height: 1.1rem;
+            display: flex;
+            justify-content: space-around;
+
+            .song_number {
+                width: 10%;
+                height: 1.1rem;
+
+                p {
+                    color: #df3436;
+                    text-align: center;
+                    line-height: 1.1rem;
+                    font-size: 17px
+                }
+            }
+
+            .song_na {
+                padding: 6px 0;
+                width: 78%;
+                height: 1.1rem;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+
+                .song_name {
+                    height: 58%;
+                    overflow: hidden;    
+                    text-overflow:ellipsis;    
+                    whitewhite-space: nowrap;
+                    .name {
+                        font-size: 17px;
+                        line-height: .51rem;
+
+                        span {
+                            color: #888;
+                            margin-left: 4px;
+                            font-size: 17px;
+                        }
+                    }
+                }
+
+                .song_author {
+                    height: 42%;
+
+                    .author {
+                        font-size: 12px;
+                        line-height: .39rem;
+
+                        .sq_icon {
+                            width: 18px;
+                            height: 14px;
+                            line-height: 14px;
+                            text-align: center;
+                            display: inline-block;
+                            color: red;
+                            font-size: 12px;
+                            border: .01rem solid red;
+                            transform: scale(0.6);
+                            .icon {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .song_icon {
+                width: 12%;
+                text-align: center;
+                line-height: 1.1rem;
+
+                .icon-bofang {
+                    font-size: 22px;
+                    color: rgb(165, 164, 164);
+                }
+            }
+
+        }
+    }
+}

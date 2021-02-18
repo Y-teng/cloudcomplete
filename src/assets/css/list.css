@@ -1,0 +1,112 @@
+.songTop {
+  height: 3.6rem;
+  background-color: aqua;
+  position: relative;
+  padding: 30px 10px 30px 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #463c31;
+  /* .songTOP {
+        .songTOP_in{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            -webkit-filter: blur(20px);
+            filter: blur(20px);
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        .songTOPP{
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+      
+    } */
+}
+.songTop .songTop_in {
+  width: 100%;
+  height: 100%;
+}
+.songTop .songTop_in .left {
+  width: 2.43rem;
+  height: 100%;
+  display: inline-block;
+}
+.songTop .songTop_in .left .img_song {
+  position: relative;
+}
+.songTop .songTop_in .left .img_song img {
+  width: 100%;
+  height: 100%;
+}
+.songTop .songTop_in .left .img_song .icon-erji1 {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  z-index: 3;
+  padding-left: 13px;
+  color: #fff;
+  font-size: 12px;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 11px 10px;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.15);
+}
+.songTop .songTop_in .right {
+  float: right;
+  margin-left: 15px;
+  width: 4rem;
+}
+.songTop .songTop_in .right .right_in .right_in_text {
+  font-size: 17px;
+  color: #fff;
+  line-height: 0.45rem;
+}
+.songTop .songTop_in .right .songImg {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+.songTop .songTop_in .right .songImg .songImg_in {
+  height: 0.6rem;
+}
+.songTop .songTop_in .right .songImg .songImg_in .songImg_img {
+  width: 0.6rem;
+  border-radius: 50%;
+}
+.songTop .songTop_in .right .songImg .songImg_in .songImg_Text {
+  line-height: 0.6rem;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 10px;
+}
+.songTop .songTop_in .right .songPic {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+.pylst_list {
+  height: 0.45rem;
+  background-color: #ccc;
+  line-height: 0.45rem;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #666;
+  background-color: #eeeff0;
+}
+.pylst_list h3 {
+  font-size: 12px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

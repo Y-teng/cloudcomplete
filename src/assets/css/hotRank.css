@@ -1,0 +1,122 @@
+.hotRank .hotop {
+  position: relative;
+  padding-top: 38.9%;
+  overflow: hidden;
+  background: url("//s3.music.126.net/mobile-new/img/hot_music_bg_2x.jpg?f01a252…=") no-repeat;
+  background-size: contain;
+}
+.hotRank .hotop .hotopct {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.hotRank .hotop .hotopct .u-hmsprt {
+  background: url("//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=") no-repeat;
+  background-size: 166px 97px;
+}
+.hotRank .hotop .hotopct .hoticon {
+  width: 142px;
+  height: 67px;
+  background-position: -24px -30px;
+}
+.hotRank .hotop .hotopct .hottime {
+  margin-top: 10px;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 12px;
+  -webkit-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  transform: scale(0.91);
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+}
+.hotRank .hotcont {
+  position: relative;
+}
+.hotRank .hotcont .song .song_list {
+  width: 100%;
+  height: 1.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.hotRank .hotcont .song .song_list .song_number {
+  width: 10%;
+  height: 1.1rem;
+}
+.hotRank .hotcont .song .song_list .song_number p {
+  color: #df3436;
+  text-align: center;
+  line-height: 1.1rem;
+  font-size: 17px;
+}
+.hotRank .hotcont .song .song_list .song_na {
+  padding: 6px 0;
+  width: 78%;
+  height: 1.1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.hotRank .hotcont .song .song_list .song_na .song_name {
+  height: 58%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  whitewhite-space: nowrap;
+}
+.hotRank .hotcont .song .song_list .song_na .song_name .name {
+  font-size: 17px;
+  line-height: 0.51rem;
+}
+.hotRank .hotcont .song .song_list .song_na .song_name .name span {
+  color: #888;
+  margin-left: 4px;
+  font-size: 17px;
+}
+.hotRank .hotcont .song .song_list .song_na .song_author {
+  height: 42%;
+}
+.hotRank .hotcont .song .song_list .song_na .song_author .author {
+  font-size: 12px;
+  line-height: 0.39rem;
+}
+.hotRank .hotcont .song .song_list .song_na .song_author .author .sq_icon {
+  width: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  display: inline-block;
+  color: red;
+  font-size: 12px;
+  border: 0.01rem solid red;
+  transform: scale(0.6);
+}
+.hotRank .hotcont .song .song_list .song_na .song_author .author .sq_icon .icon {
+  font-size: 12px;
+}
+.hotRank .hotcont .song .song_list .song_icon {
+  width: 12%;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.hotRank .hotcont .song .song_list .song_icon .icon-bofang {
+  font-size: 22px;
+  color: #666;
+}
